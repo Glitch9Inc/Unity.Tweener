@@ -11,10 +11,24 @@ Unity.Tweener is a robust and versatile tweening library for Unity, designed to 
 - **Flexible Duration and Delay**: Customize the duration and delay of tweens.
 - **Callback Support**: Execute actions on tween updates and completion.
 
-## Installation
+### Installation
+
+#### Step 1: Download or Clone the Repository
 
 1. Download or clone the repository.
 2. Copy the `Glitch9.Toolkits.Tweener` folder into your Unity project's `Assets` directory.
+
+#### Step 2: Install Editor Coroutines Package
+
+To use the editor coroutine features provided by the Glitch9 Tweener, you need to install the `Editor Coroutines` package from the Unity Package Manager.
+
+1. Open Unity and go to `Window` > `Package Manager`.
+2. In the Package Manager, click on the `+` button in the top left corner and select `Add package from git URL...`.
+3. Enter the following URL: `https://github.com/Unity-Technologies/com.unity.editorcoroutines` and click `Add`.
+
+   ![Package Manager](https://docs.unity3d.com/uploads/Main/PackageManagerUI_add_git.png)
+
+4. The `Editor Coroutines` package will be installed, allowing you to use editor coroutines in your project.
 
 ## Usage
 
