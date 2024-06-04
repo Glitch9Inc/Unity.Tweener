@@ -25,9 +25,6 @@ To use the editor coroutine features provided by the Glitch9 Tweener, you need t
 1. Open Unity and go to `Window` > `Package Manager`.
 2. In the Package Manager, click on the `+` button in the top left corner and select `Add package from git URL...`.
 3. Enter the following URL: `https://github.com/Unity-Technologies/com.unity.editorcoroutines` and click `Add`.
-
-   ![Package Manager](https://docs.unity3d.com/uploads/Main/PackageManagerUI_add_git.png)
-
 4. The `Editor Coroutines` package will be installed, allowing you to use editor coroutines in your project.
 
 ## Usage
